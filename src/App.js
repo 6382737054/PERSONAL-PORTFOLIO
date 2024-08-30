@@ -213,18 +213,18 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-4xl font-bold mb-8">Contact Me</h2>
             <div className="flex justify-center space-x-8 mb-8">
-              <a href="https://linkedin.com/in/prasannaa" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/prasanna-e" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-3xl" />
               </a>
               <a href="https://github.com/6382737054" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="text-3xl" />
               </a>
-              <a href="https://instagram.com/prasannaa" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/_prasanaa" target="_blank" rel="noopener noreferrer">
                 <FaInstagram className="text-3xl" />
               </a>
             </div>
-            <p className="text-lg">Email: prasanna.e@example.com</p>
-            <p className="text-lg">Phone: +123 456 7890</p>
+            <p className="text-lg">Email: prasanna.es11@gmail.com</p>
+            <p className="text-lg">Phone: +91-6382737054</p>
           </div>
         </section>
       </main>
