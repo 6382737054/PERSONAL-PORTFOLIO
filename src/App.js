@@ -178,32 +178,35 @@ function App() {
             <Timeline />
           </div>
         </section>
+{/* Education Section */}
+<section id="education" className="py-20 bg-gray-50 text-gray-900">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 className="text-4xl font-bold text-center mb-12">Education</h2>
+    <div className="relative">
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="w-1 bg-gray-400 h-full"></div>
+      </div>
+      <div className="relative space-y-8">
+        <EducationCard
+          title="Higher Secondary"
+          institution="PKP Swamy Matric Higher Secondary School"
+          description="Completed my higher secondary education in 2019 with an overall score of 73%."
+          titleClassName="text-lg" // Adjusted size
+          institutionClassName="text-base" // Adjusted size
+        />
+        <EducationCard
+          title="Bachelor of Engineering in Computer Science"
+          institution="Bannari Amman Institute of Technology"
+          description="2023 graduate specialized in web development, 3D modeling, and developing machine learning models."
+          titleClassName="text-lg" // Adjusted size
+          institutionClassName="text-base" // Adjusted size
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
-        {/* Education Section */}
-        <section id="education" className="py-20 bg-gray-50 text-gray-900">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-4xl font-bold text-center mb-12">Education</h2>
-            <div className="relative">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-1 bg-gray-400 h-full"></div>
-              </div>
-              <div className="relative space-y-8">
-                <EducationCard
-                 
-                  title="Bachelor of Science in Computer Science"
-                  institution="XYZ University"
-                  description="Graduated with honors, focusing on web development and machine learning."
-                />
-                <EducationCard
-              
-                  title="Master of Science in Data Science"
-                  institution="ABC University"
-                  description="Specialized in machine learning and data analysis with a thesis on predictive modeling."
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+
 
         {/* Contact Me Section */}
         <section id="contact" className="py-20 bg-gray-100 text-gray-900 text-center">

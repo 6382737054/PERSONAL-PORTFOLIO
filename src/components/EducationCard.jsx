@@ -1,19 +1,15 @@
-// src/components/EducationCard.js
 import React from 'react';
 
-const EducationCard = ({ icon, title, institution, description }) => {
+function EducationCard({ title, institution, description }) {
   return (
-    <div className="bg-white shadow-lg rounded-lg p-6">
-      <div className="flex items-center space-x-4 mb-4">
-        <div className="text-3xl">{icon}</div>
-        <div>
-          <h3 className="text-xl font-semibold">{title}</h3>
-          <p className="text-gray-600">{institution}</p>
-        </div>
+    <div className="relative bg-white rounded-lg shadow-lg p-6 w-full">
+      <h3 className="text-xl font-semibold mb-2">{title}</h3>
+      <div className="flex justify-between items-center mb-4">
+        <h4 className="text-lg font-medium">{institution}</h4>
       </div>
-      <p>{description}</p>
+      <p className="text-gray-600 text-sm">{description}</p>
     </div>
   );
-};
+}
 
 export default EducationCard;
