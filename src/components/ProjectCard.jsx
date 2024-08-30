@@ -1,3 +1,4 @@
+// src/components/ProjectCard.js
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython } from 'react-icons/fa';
 
@@ -22,9 +23,7 @@ const ProjectCard = ({ title, description, image, link, technologies }) => (
           </div>
         ))}
       </div>
-      <a href={link} className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-        View Project
-      </a>
+      <a href={link} className="text-blue-600 hover:underline">View Project</a>
     </div>
   </div>
 );
