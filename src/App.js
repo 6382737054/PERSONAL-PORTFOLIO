@@ -24,7 +24,7 @@ function App() {
               <a href="#projects" className="inline-block bg-white text-green-600 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100">
                 View My Work
               </a>
-              <a href="/resume.pdf" download className="ml-4 inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100">
+              <a href="/Prasannaa-cv.pdf" download className="ml-4 inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100">
                 Download Resume
               </a>
             </div>
