@@ -35,12 +35,13 @@ function App() {
         View My Work
       </a>
       <a
-        href="/Prasannaa.pdf"
-        download
-        className="ml-4 bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 transition-all duration-300"
-      >
-        Download Resume
-      </a>
+  href={`${process.env.PUBLIC_URL}/Prasannaa.pdf`}
+  download
+  className="ml-4 bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 transition-all duration-300"
+>
+  Download Resume
+</a>
+
     </div>
   </div>
 </section>
