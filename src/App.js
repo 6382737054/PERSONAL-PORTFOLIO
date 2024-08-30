@@ -15,21 +15,36 @@ function App() {
       <Navbar />
 
       <main>
-        {/* Home Section */}
-        <section id="home" className="flex items-center justify-center py-32 bg-gradient-to-r from-blue-500 to-teal-400 text-center">
-          <div>
-            <h1 className="text-5xl font-extrabold text-white mb-4">Hello, I'm [Prasannaa]</h1>
-            <p className="text-xl text-white mb-8">Frontend Developer | React Enthusiast | Creative Coder</p>
-            <div>
-              <a href="#projects" className="inline-block bg-white text-green-600 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100">
-                View My Work
-              </a>
-              <a href="/Prasannaa.pdf" download className="ml-4 inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100">
-                Download Resume
-              </a>
-            </div>
-          </div>
-        </section>
+   {/* Home Section */}
+<section
+  id="home"
+  className="flex items-center justify-center py-32 bg-gradient-to-r from-blue-600 via-teal-500 to-green-400 text-center"
+>
+  <div className="max-w-4xl mx-auto px-6">
+    <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-4">
+      Hello, I'm <span className="text-yellow-300">Prasannaa</span>
+    </h1>
+    <p className="text-xl md:text-2xl text-white mb-8">
+      Frontend Developer | React Enthusiast | Creative Coder
+    </p>
+    <div className="flex justify-center">
+      <a
+        href="#projects"
+        className="bg-white text-teal-600 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 transition-all duration-300"
+      >
+        View My Work
+      </a>
+      <a
+        href="/Prasannaa.pdf"
+        download
+        className="ml-4 bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 transition-all duration-300"
+      >
+        Download Resume
+      </a>
+    </div>
+  </div>
+</section>
+
 
         {/* About Me Section */}
         <section id="about" className="py-20 bg-gray-200 text-gray-900">
