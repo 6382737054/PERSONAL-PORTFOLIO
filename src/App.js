@@ -135,41 +135,48 @@ function App() {
 
 
 
-        {/* Projects Section */}
-        <section id="projects" className="py-20 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <ProjectCard
-              title="Pet Adoption Platform"
-              image={`${process.env.PUBLIC_URL}/images/Project1.jpg`}
-              link="https://6382737054.github.io/PET-ADOPTION/"
-              technologies={['html', 'css', 'js', 'react']}
-            />
-            <ProjectCard
-              title="Coconut Business Display"
-              image={`${process.env.PUBLIC_URL}/images/Project2.jpg`}
-              link="https://6382737054.github.io/COCONUT-WEBSITE/"
-              technologies={['html', 'css', 'react', 'js']}
-            />
-            <ProjectCard
-              title="Personal Portfolio"
-              image={`${process.env.PUBLIC_URL}/images/Project3.jpg`}
-              link="https://example.com/project3"
-              technologies={['html', 'css', 'react', 'js']}
-            />
-            <ProjectCard
-              title="Game Environment Design"
-              image={`${process.env.PUBLIC_URL}/images/Project4.jpg`}
-              link="https://example.com/project4"
-              technologies={[]}
-            />
-            <ProjectCard
-              title="Vehicle Detection in Traffic using YOLO"
-              image={`${process.env.PUBLIC_URL}/images/Project5.jpg`}
-              link="https://example.com/project5"
-              technologies={['python']}
-            />
+                {/* Projects Section */}
+                <section id="projects" className="py-20 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* My Projects Title */}
+            <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
+            
+            {/* Project Cards */}
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+              <ProjectCard
+                title="Pet Adoption Platform"
+                image={`${process.env.PUBLIC_URL}/images/Project1.jpg`}
+                link="https://6382737054.github.io/PET-ADOPTION/"
+                technologies={['html', 'css', 'js', 'react']}
+              />
+              <ProjectCard
+                title="Coconut Business Display"
+                image={`${process.env.PUBLIC_URL}/images/Project2.jpg`}
+                link="https://6382737054.github.io/COCONUT-WEBSITE/"
+                technologies={['html', 'css', 'react', 'js']}
+              />
+              <ProjectCard
+                title="Personal Portfolio"
+                image={`${process.env.PUBLIC_URL}/images/Project3.jpg`}
+                link="https://example.com/project3"
+                technologies={['html', 'css', 'react', 'js']}
+              />
+              <ProjectCard
+                title="Game Environment Design"
+                image={`${process.env.PUBLIC_URL}/images/Project4.jpg`}
+                link="https://example.com/project4"
+                technologies={[]}
+              />
+              <ProjectCard
+                title="Vehicle Detection in Traffic using YOLO"
+                image={`${process.env.PUBLIC_URL}/images/Project5.jpg`}
+                link="https://example.com/project5"
+                technologies={['python']}
+              />
+            </div>
           </div>
         </section>
+
 
         {/* Experience Section */}
         <section id="experience" className="py-20 bg-gray-200">
@@ -227,6 +234,7 @@ function App() {
             <p className="text-lg">Phone: +91-6382737054</p>
           </div>
         </section>
+        
       </main>
 
       {/* Footer */}
