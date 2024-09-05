@@ -11,7 +11,7 @@ const technologyIcons = {
 };
 
 const ProjectCard = ({ title, description, image, link, technologies }) => (
-  <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-opacity duration-500 hover:opacity-80">
+  <div className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:rotate-1">
     <img className="w-full h-48 object-cover" src={image} alt={title} />
     <div className="p-6">
       <h3 className="text-2xl font-semibold mb-2">{title}</h3>
